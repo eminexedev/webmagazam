@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Mağazam | İletişim</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div id="ntfcsn" class="notification">
+            <div class="container">
+                <p>Yeni kayıt olan müşterilerimize sepette %10 indirim!
+                    <a href="shop.html">Kayıt Ol</a>
+                </p>
+            </div>
+            <i onclick="closentfcn()" class="bi bi-x-lg"></i>
+        </div>
+        <div class="header-row">
+            <div class="container">
+                <div class="header-wrapper">
+                    <div class="mobile">
+                        <i class="bi bi-list"></i>
+                    </div>
+                    <div class="header-left">
+                        <a class="logo" href="index.html">Web Mağazam</a>
+                    </div>
+                    <div class="header-center">
+                        <nav class="navigation">
+                            <ul class="menu-list">
+                                <li class="menu-list-item">
+                                    <a class="menu-link" href="index.html">Ana Sayfa</a>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a class="menu-link" href="shop.html">Ürünler
+                                        <i class="bi bi-chevron-down"></i>
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <ul class="dropdownmenu-content">
+                                            <li>
+                                                <a href="#">lorem1</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">lorem2</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">lorem3</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">lorem4</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">lorem5</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a class="menu-link" href="contact.html">Destek</a>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a class="menu-link" href="sss.html">S.S.S</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <i class="bi-x-circle"></i>
+                    </div>
+                    <div class="header-right">
+                        <div class="header-right-links">
+                            <a class="account" href="#">
+                                <i class="bi bi-person"></i>
+                            </a>
+                            <button class="search-toggle">
+                                <i class="bi bi-search"></i>
+                            </button>
+                            <a href="#">
+                                <i class="bi bi-heart"></i>
+                            </a>
+                            <div class="header-cart">
+                                <a href="#" class="cart">
+                                    <i class="bi bi-bag"></i>
+                                    <span class="bag-count">0</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="contact">
+        <div class="contact-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12031.90458292681!2d28.958531021693023!3d41.069514068760334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7023f69f4c7%3A0x31b74f9588343eef!2zxLBzdGFuYnVsIENldmFoaXIgQWzEscWfdmVyacWfIHZlIEXEn2xlbmNlIE1lcmtlemk!5e0!3m2!1str!2str!4v1698527876183!5m2!1str!2str"
+                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contact-bottom">
+            <div class="container">
+                <h4>İletişim | Get in touch</h4>
+                <h2>Size Nasıl Yardımcı Olabiliriz?</h2>
+                <p>sizlere daha kaliteli hizmet verebilmek adına sizleri dinliyoruz.
+                    şikayet, öneri ver isteklerinizi önemsiyoruz</p>
+                <div class="contact-elements">
+                    <form class="contact-form" action="">
+                        <div>
+                            <label>
+                                İsim | Your name
+                                <span style="color: red;">*</span>
+                            </label>
+                            <input type="text" required>
+                        </div>
+                        <div>
+                            <label>
+                                Soyad | Surname
+                                <span style="color: red;">*</span>
+                            </label>
+                            <input type="text" required>
+                        </div>
+                        <div>
+                            <label>
+                                Mail | Mail adress
+                                <span style="color: red;">*</span>
+                            </label>
+                            <input type="text" required>
+                        </div>
+                        <div>
+                            <label>
+                                Mesajınız | messages
+                                <span style="color: red;">*</span>
+                            </label>
+                            <textarea style="resize:initial; " name="" id="" cols="30" rows="10" required></textarea>
+                        </div>
+                        <button class="btn btn-lg">Gönder</button>
+                    </form>
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <div class="contact-info-text">
+                                <strong>Açık adresimiz</strong>
+                                <p class="street">
+                                    Abbas Caddesi
+                                    şirin sokak
+                                    billur mahallesi
+                                    Şişli/istanbul
+                                </p>
+                                <a href="tel:0212 210 04 34">0212 210 04 34</a>
+                                <a href="mailto:info@webmagazam.com">info@webmagazam.com</a>
+                            </div>
+                            <br>
+                            <div class="contact-info-social-media">
+                                <h1 style="margin-bottom: 15px;">Sosyal Medya Hesaplarımız</h1>
+                                <a class="social-icons" href="#">
+                                    <i class="bi bi-youtube"></i>
+                                </a>
+                                <a class="social-icons" href="">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                                <a class="social-icons" href="">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                                <a class="social-icons" href="">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="subscribe-area">
+            <div class="container">
+                <div class="footer-wrapper">
+                    <div class="subscribe-top">
+                        <h3 class="sub-title">E - Bülten</h3>
+                    </div>
+                    <div class="sub-desc">
+                        <p>Yeni ürün duyurularından, özel etkinliklerden ve online tekliflerden ilk önce siz haberdar
+                            olun.
+                        </p>
+                    </div>
+                    <div class="sub-desc-bottom">
+                        <form>
+                            <input type="text" placeholder="Mail adresinizi buraya yazın.">
+                            <button class="btn-lg">Bültenimize Abone Olun.</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="widgets-row">
+            <div class="container">
+                <div class="footer-widgets">
+                    <div class="brand-info">
+                        <div class="footer-logo">
+                            <a href="#" class="logo">Web Mağazam</a>
+                        </div>
+                        <div class="footer-desc">
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis quos quo ipsam sequi
+                                ab maiores enim id sit consectetur ducimus?
+                            </p>
+                        </div>
+                        <div class="footer-contact">
+                            <p>
+                                <a href="tel:+905411910263">+90 541 191 02 63</a> -
+                                <a href="mailto:info@webmagazam.com">info@webmagazam.com</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="widget-naw-menu">
+                        <h4>Information</h4>
+                        <ul>
+                            <li>
+                                <a href="">About Us</a>
+                            </li>
+                            <li>
+                                <a href="">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="">Returns Policy</a>
+                            </li>
+                            <li>
+                                <a href="">Shipping Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="widget-naw-menu">
+                        <h4>Account</h4>
+                        <ul>
+                            <li>
+                                <a href="">My Orders</a>
+                            </li>
+                            <li>
+                                <a href="">My Wishlist</a>
+                            </li>
+                            <li>
+                                <a href="">Account details</a>
+                            </li>
+                            <li>
+                                <a href="">Track My Orders</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="widget-naw-menu">
+                        <h4>Categories</h4>
+                        <ul>
+                            <li>
+                                <a href="">Women</a>
+                            </li>
+                            <li>
+                                <a href="">Men</a>
+                            </li>
+                            <li>
+                                <a href="">Bags</a>
+                            </li>
+                            <li>
+                                <a href="">Outerwear</a>
+                            </li>
+                            <li>
+                                <a href="">Shoes</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="widget-naw-menu">
+                        <h4>Account</h4>
+                        <ul>
+                            <li>
+                                <a href="">My Orders</a>
+                            </li>
+                            <li>
+                                <a href="">My Wishlist</a>
+                            </li>
+                            <li>
+                                <a href="">Account details</a>
+                            </li>
+                            <li>
+                                <a href="">Track My Orders</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-row">
+            <div class="container">
+                <div class="footer-copyright">
+                    <div class="site-copyright">
+                        <p>Copyright 2023 © Web Mağazam. All right reserved. Developer by <a style="color: blue;"
+                                href="https://eminexe.live/" target="_blank">Emin.exe.</a></p>
+                    </div>
+                    <img style="user-select: none; height: 30%; width: 25%;" src="./img/cards.png" alt="">
+                    <div class="footer-menu">
+                        <ul class="footer-menu-list">
+                            <li class="list-item">
+                                <a href="">Privacy Policy</a>
+                            </li>
+
+                            <li class="list-item">
+                                <a href="">Our Terms of Use</a>
+                            </li>
+
+                            <li class="list-item">
+                                <a href="">Returns Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
