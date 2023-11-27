@@ -1,0 +1,33 @@
+.policy{
+    margin: 20px;
+}
+
+.policy .policy-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.policy .policy-list .policy-item {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.policy .policy-item .policy-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.policy .policy-item .policy-description strong{
+    font-weight: 600;
+}
+
+.policy .policy-item .policy-description span{
+    font-size: 12px;
+}
+
+.policy .policy-item i {
+    font-size: 50px;
+}
+

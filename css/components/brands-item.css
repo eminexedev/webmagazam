@@ -1,0 +1,25 @@
+.brands {
+    background-color: rgb(245, 245, 245);
+}
+
+.brands-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.brnds-img{
+    border-radius: 50%;
+}
+
+.brnds-img:hover{
+    transition: 0.3s ease all;
+    box-shadow: 5px 5px 10px #d6d6d6;
+}
+
+@media (max-width: 768px){
+    .brands-list li{
+        margin: 20px 0;
+    }
+}
